@@ -1,0 +1,88 @@
+body {
+  background-color: #d2a9d9;
+  font-family: 'Signika Negative', sans-serif;
+  color: #1e4361;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+  color: #305244;
+  font-size: 34px;
+  line-height: 20px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.container {
+  width: 530px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+  background-color: #ebc96e;
+  padding: 10px;
+  border-radius: 25%;
+  box-shadow: 5px 10px #888888;
+}
+
+
+.mmh {
+  width: 530px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+  background-color: #ebc96e;
+  padding: 10px;
+  border-radius: 2%;
+  box-shadow: 5px 10px #888888;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .mmh {
+    width: 300px;
+  }
+}
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .mmh {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .mmh {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .mmh {
+      width: 300px;
+    }
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0;
+}
